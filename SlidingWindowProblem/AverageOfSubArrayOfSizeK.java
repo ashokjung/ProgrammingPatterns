@@ -12,7 +12,7 @@ public class AverageOfSubArrayOfSizeK {
     }
 
     public static double[] findAverages(int k , int[] arrayOfInteger){
-
+        
         double[] result = new double[arrayOfInteger.length-k+1];
         double windowSum = 0;
         int windowStart = 0;
